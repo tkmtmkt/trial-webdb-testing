@@ -1,0 +1,6 @@
+dependencies {
+  deploy project(':jars:MyAppMain')
+  earlib(project(':jars:MyAppMain')) {
+    exclude group: 'com.github.tkmtmkt', module: 'MyAppMain'
+  }
+}

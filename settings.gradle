@@ -1,0 +1,12 @@
+include 'ears:MyApp'
+include 'ears:MyLib'
+
+include 'jars:MyAppMain'
+include 'jars:MyAppSub'
+include 'jars:MyLibMain'
+include 'jars:MyLibSub'
+
+include 'test:EmbeddedTest'
+include 'test:RemoteTest'
+
+rootProject.name = 'study-webdb-testing'

@@ -1,0 +1,6 @@
+dependencies {
+  compile project(':jars:MyAppMain')
+
+  testCompile 'org.jboss.arquillian.junit:arquillian-junit-container:1.1.13.Final'
+  testRuntime 'fish.payara.arquillian:arquillian-payara-server-4-remote:1.0.Beta2'
+}
