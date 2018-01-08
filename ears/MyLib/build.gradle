@@ -1,6 +1,6 @@
 dependencies {
-  deploy project(':jars:MyLibMain')
-  earlib(project(':jars:MyLibMain')) {
-    exclude group: 'com.github.tkmtmkt', module: 'MyLibMain'
+  deploy project(':jars:MyLibEJB')
+  earlib(project(':jars:MyLibEJB')) {
+    exclude group: 'com.github.tkmtmkt', module: 'MyLibEJB'
   }
 }

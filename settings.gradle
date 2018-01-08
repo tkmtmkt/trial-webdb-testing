@@ -1,10 +1,10 @@
 include 'ears:MyApp'
 include 'ears:MyLib'
 
-include 'jars:MyAppMain'
-include 'jars:MyAppSub'
-include 'jars:MyLibMain'
-include 'jars:MyLibSub'
+include 'jars:MyAppWAR'
+include 'jars:MyAppJAR'
+include 'jars:MyLibEJB'
+include 'jars:MyLibJAR'
 
 include 'test:EmbeddedTest'
 include 'test:RemoteTest'

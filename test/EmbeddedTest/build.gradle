@@ -3,5 +3,7 @@ dependencies {
   compile project(':jars:MyLibEJB')
 
   testCompile libraries.arquillian_junit_container
-  testRuntime libraries.arquillian_payara_server_4_remote
+  testRuntime libraries.arquillian_payara_server_4_embedded
+  testRuntime libraries.payara_api
+  testRuntime libraries.payara_embedded
 }

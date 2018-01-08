@@ -1,0 +1,4 @@
+dependencies {
+  compile project(':jars:MyAppJAR')
+  compile project(':jars:MyLibEJB')
+}
