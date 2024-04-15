@@ -1,4 +1,4 @@
-study-webdb-testing
+trial-webdb-testing
 ===================
 
 概要
